@@ -31,3 +31,8 @@ dependencyManagement {
 test {
 	useJUnitPlatform()
 }
+
+// For the second jar file ...-plain.jar not to be generated.
+jar {
+	enabled = false
+}
